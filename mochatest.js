@@ -22,3 +22,33 @@ it("returns 5-4=1",function(done){
 	});
 	
 });
+
+it("returns 10/2 ==5",function(done){
+	assert.equal(calc.div(10,2), 5)
+	done();
+   });
+
+it("fun checking",function(){
+	assert.equal(calc.fun(19,19),"x and y are equal")
+    });
+
+it("function",function(){
+	assert.equal(calc.fun_one(), "securifi emebedded systems")
+   });
+
+});
+
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      assert.equal([1, 2, 3].indexOf(4), -1);
+    });
+  });
+});
+
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    // pending test below
+    it('should return -1 when the value is not present');
+  });
+});

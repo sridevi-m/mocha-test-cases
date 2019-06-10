@@ -62,3 +62,12 @@ describe('a suite of tests', function() {
     setTimeout(done, 2000);
   });
 });
+
+describe("test case timeout", function(){    // it will excute after 2 secs 
+	this.timeout(10000);
+		it("should take 2sec", function(done){
+			assert.equal(calc.fun_three(),"please subscribe it")
+			setTimeout(done,2000);
+
+		});
+});

@@ -52,3 +52,13 @@ describe('Array', function() {
     it('should return -1 when the value is not present');
   });
 });
+
+
+describe('a suite of tests', function() {
+   this.timeout(9000);
+
+  it('should take less than 500ms', function(done) {
+  	assert.equal(calc.div(10,2), 5)
+    setTimeout(done, 2000);
+  });
+});

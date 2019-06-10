@@ -25,3 +25,7 @@ exports.fun = function(x,y){
 exports.fun_one = function(){
 	return "securifi emebedded systems"
 };
+
+exports.fun_three = function(){
+	return "please subscribe it"
+}

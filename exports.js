@@ -14,3 +14,10 @@ module.exports.simpleMsg = "secruifi embeded systems at madhapur";
  	tName : "rahul"
  }
  
+// class
+ module.exports = function(name,age,desgination,gender){
+ 	this.name = name;
+ 	this.age  = age;
+ 	this.desgination = desgination;
+ 	this.gender = gender;
+ }

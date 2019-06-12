@@ -62,3 +62,5 @@ exports.obj4 = {
 exports.fun4 = function(x,y){
     console.log(x*y);
 }
+
+

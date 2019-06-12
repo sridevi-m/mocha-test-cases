@@ -99,3 +99,17 @@ var value5 = 999;
 module.exports = {value1, value2, value3, value4, value5};
 
 
+//exporting obj,fun,var
+var x = 555;
+
+var obj1 = {
+	fName : "gowrav",
+	tName : "pentakota"
+};
+
+var fun1 = function(msg){
+	console.log(msg);
+};
+
+module.exports =  {x, obj1, fun1};
+

@@ -38,6 +38,27 @@ exports.fun3 = function(msg3){
 	console.log(msg3);
 };
 
+// multiple objects
+exports.obj1 = {
+	fName : "gowrav",
+	tName : "rahul"
+}
+
+exports.obj2 = {
+	fname : "securifi",
+	tName : "embedded"
+}
+
+exports.obj3 = {
+	fName : "vizag",
+	tName : "hyderabad"
+}
+
+exports.obj4 = {
+	fName : "almond",
+	tName : "router"
+}
+
 exports.fun4 = function(x,y){
     console.log(x*y);
 }

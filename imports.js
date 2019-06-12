@@ -17,8 +17,8 @@ var msg2 = new msg("gowrav",23, "node js developer", "male");
 console.log(msg2.name+ " "+ msg2.age+ " "+msg2.desgination+ " "+msg2.gender);
 
 
-// multiple functions import
 
+// multiple functions import
 var msgs =require("./variables.js");
 msgs.fun1("india");
 msgs.fun2("pakistan");
@@ -31,18 +31,18 @@ var msg = require("./variables.js");
 console.log(msg.obj4.tName);
 console.log(msg.obj2.fName);
 
-// (or)
+      // (or)
 // multiple objects calling
 var msg = require("./variables.js");
 console.log(msg.obj4.fName)
 
-// importing multiple variables
 
+// importing multiple variables
 var values = require("./variables.js");
 console.log(values.value1+values.value2+values.value3+values.value4+values.value4);
 
-// importing fun, obj, var
 
+// importing fun, obj, var
 var msg = require("./variables.js");
 console.log(msg.x);
 

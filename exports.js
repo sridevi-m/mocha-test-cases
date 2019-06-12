@@ -3,12 +3,12 @@ module.exports = "securifi embedded systems";
 
 module.exports.simpleMsg = "secruifi embeded systems at madhapur";
 
-# funct
+// function
   module.exports.funct = function(msg){
  	console.log(msg);
   };
   
-# object
+ // object
  module.exports = {
  	fName : "gowrav",
  	tName : "rahul"

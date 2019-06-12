@@ -69,3 +69,52 @@ describe("test case timeout", function(){    // it will excute after 2 secs
 		});
 });
 
+describe("MS.increment function", function(){
+	it("something",function(done){
+		assert.equal(MS.increment(true), "testing");
+		done();
+		console.log(connections);
+	});
+});
+
+describe("MS.hset function", function(){
+  it("something",function(done){
+    assert.equal(MS.hset("251176216367984", {connecting: true}),)
+      done();
+  });
+});
+
+describe("MS.hget function", function(){
+  it("something",function(done){
+    assert.equal(MS.hget("251176216367984"), "testing")
+      done();
+  });
+});
+
+describe("MS.addAff function", function(){
+  it("something",function(done){
+    assert.equal(MS.addAff("251176216367984a", {connecting: 'false'}),undefined )
+      done();
+  });
+});
+
+describe("MS.addAff function", function(){
+  it("something",function(done){
+    assert.equal(MS.addAff("251176216367984a", {connecting: 'false'}),undefined )
+      done();
+  });
+	
+	describe("MS.check function", function(){
+  it("something",function(done){
+    assert.deepEqual((MS.check("55454")), {AlmondMAC: '55454', Server: 'A2101', Status: 0, lastEpoch: 0 })
+      done();
+       });
+});
+	
+	describe("MS.setUsers function", function(){
+	it("function testing", function(done){
+		assert.equal(MS.setUsers({users:[]}, {UserID:200, Action: "add"}), 1)
+			done();
+	})
+})
+});

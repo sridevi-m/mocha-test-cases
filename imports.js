@@ -24,3 +24,9 @@ msgs.fun1("india");
 msgs.fun2("pakistan");
 msgs.fun3("ammerica");
 msgs.fun4(5,6);
+
+
+// import multiple objects
+var msg = require("./variables.js");
+console.log(msg.obj4.tName);
+console.log(msg.obj2.fName);

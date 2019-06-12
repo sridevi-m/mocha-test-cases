@@ -40,3 +40,12 @@ console.log(msg.obj4.fName)
 
 var values = require("./variables.js");
 console.log(values.value1+values.value2+values.value3+values.value4+values.value4);
+
+// importing fun, obj, var
+
+var msg = require("./variables.js");
+console.log(msg.x);
+
+console.log(msg.obj1.fName);
+
+console.log(msg.fun1("imposible is posible that is i am possible"));

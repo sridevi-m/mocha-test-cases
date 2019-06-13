@@ -1,7 +1,8 @@
 var assert = require('assert');
 var calc = require("./calc.js");
+var MS = require("./almondStore.js");
 
-
+/*
 describe("calc test",function(){
 	this.timeout(10000)
 	 it("returns 4+5=9",function(done){
@@ -117,4 +118,22 @@ describe("MS.addAff function", function(){
 			done();
 	})
 })
+});
+*/
+
+
+describe("MS.hset function", function(){
+  it("function testing",function(done){
+    assert.equal(MS.hset("251176216367984", {connecting: true}),  "testing"  )
+    console.log(MS.sessionDestroyMACS)
+         done();
+
+  });
+});
+
+describe("MS.hset function", function(){
+  it("function testing",function(done){
+    assert.equal(MS.hset("251176216367984", {connecting: true}), "testing" )
+         done();
+  });
 });
